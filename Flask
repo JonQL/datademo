@@ -1,0 +1,4 @@
+@app.route('/o_mac', methods=['POST', 'GET'])
+
+html_leadlag=df_leadlag.to_html()
+return render_template('o_mac.html', html=html_leadlag) 
